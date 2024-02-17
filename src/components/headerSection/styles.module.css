@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+    background-color: #FFF;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.article {
+    background-color: #83BE48DE;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 4rem;
+    gap: 1rem;
+}
+
+.article__image {
+    width: 66.6%;
+    object-fit: cover;
+}
+
+.article__p {
+    width: 33.3%;
+    font-size: 2rem;
+}
+
+@media (width < 420px) {
+    .article {
+        background-color: #83BE48DE;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 4rem;
+    }
+
+    .article__image {
+        width: 100%;
+    }
+
+    .article__p {
+        width: 100%;
+    }
+}

@@ -1,0 +1,64 @@
+.carousel {
+    width: 100dvw;
+    height: 100dvh;
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 1s;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.active {
+    opacity: 1;
+}
+
+.title_rectangle_container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 17rem;
+    gap: 2rem
+}
+
+.title {
+    color: #FFF;
+    font-size: 6rem;
+    font-family: 'Leelawadee UI';
+    text-align: center;
+}
+
+.reactangle_container {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rectangle_base {
+    width: 8rem;
+    height: .5rem;
+    background-color: #FFF;
+    opacity: 20%;
+}
+
+.rectangle_active {
+    width: 8rem;
+    height: .5rem;
+    background-color: #FFF;
+    align-self: flex-end;
+}
+
