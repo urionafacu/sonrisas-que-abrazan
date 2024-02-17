@@ -34,7 +34,7 @@
     font-size: 2rem;
 }
 
-@media (width < 420px) {
+@media (width < 432px) {
     .article {
         background-color: #83BE48DE;
         width: 100%;

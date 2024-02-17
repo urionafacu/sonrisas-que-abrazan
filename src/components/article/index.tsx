@@ -7,7 +7,7 @@ type Props = {
   body: string
 }
 
-const HeaderSection = ({ title, image, body }: Props) => {
+const Article = ({ title, image, body }: Props) => {
   return (
     <div className={styles.container}>
       <div className={styles.titleContainer}>
@@ -21,4 +21,4 @@ const HeaderSection = ({ title, image, body }: Props) => {
   )
 }
 
-export default HeaderSection
+export default Article

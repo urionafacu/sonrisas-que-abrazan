@@ -1,5 +1,5 @@
 import Carousel from '@/components/carousel'
-import HeaderSection from '@/components/headerSection'
+import Article from '@/components/article'
 import JoinButton from '@/components/joinButton'
 
 const ARTICLES = [
@@ -20,7 +20,7 @@ export default function Home() {
     <main>
       <Carousel />
       {ARTICLES.map((article) => (
-        <HeaderSection key={article.title} {...article} />
+        <Article key={article.title} {...article} />
       ))}
       <section className='w-full h-60 flex items-center justify-center'>
         <JoinButton />
