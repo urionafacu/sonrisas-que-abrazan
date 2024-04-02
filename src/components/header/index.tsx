@@ -1,7 +1,33 @@
+import Link from 'next/link'
+import s from './styles.module.css'
+
 const Header = () => {
   return (
-    <header className='absolute top-0 left-0 right-0 z-10 flex justify-between items-center bg-black bg-opacity-70 h-52'>
-      <div className='bg-logo bg-cover w-36 h-36 ml-4' />
+    <header className={s.header}>
+      <div className={s.logo} />
+      <ul className={s.items}>
+        <li>
+          <Link className={s.link} href='/cancer'>
+            Cáncer Infantil
+          </Link>
+        </li>
+        <li>
+          <div className={s.separator} />
+        </li>
+        <li>
+          <Link className={s.link} href='/encuentros'>
+            Encuentros
+          </Link>
+        </li>
+        <li>
+          <div className={s.separator} />
+        </li>
+        <li>
+          <Link className={s.link} href='/colabora'>
+            Colaborá
+          </Link>
+        </li>
+      </ul>
     </header>
   )
 }

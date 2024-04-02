@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Leelawadee UI';
-  src: url('/fonts/LeelawUI.ttf'); /* Ajusta la ruta si es necesario */
+  font-family: 'OpenSans';
+  src: url('/fonts/OpenSans.ttf');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  font-family: 'Leelawadee UI', sans-serif;
+  font-family: 'OpenSans', sans-serif;
   line-height: 1.6;
 }
 

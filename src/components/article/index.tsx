@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import styles from './styles.module.css'
+import s from './styles.module.css'
 
 type Props = {
   title: string
@@ -7,16 +7,26 @@ type Props = {
   body: string
 }
 
+export const HeaderArticle = ({ title }: Pick<Props, 'title'>) => {
+  return (
+    <header className={s.container}>
+      <div className={s.titleContainer}>
+        <h2 className={s.title}>{title}</h2>
+      </div>
+    </header>
+  )
+}
+
 const Article = ({ title, image, body }: Props) => {
   return (
-    <div className={styles.container}>
-      <div className={styles.titleContainer}>
-        <h2 className={styles.title}>{title}</h2>
-      </div>
-      <article className={styles.article}>
-        <img src={image} alt={title} className={styles.article__image} />
-        <p className={styles.article__p}>{body}</p>
+    <div className={s.container}>
+      <HeaderArticle title={title} />
+      <article className={s.article}>
+        <p className={s.article__p}>{body}</p>
       </article>
+      <div className={s.article__container_image}>
+        <img src={image} alt={title} className={s.article__image} />
+      </div>
     </div>
   )
 }
