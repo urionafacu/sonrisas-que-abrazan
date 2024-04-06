@@ -1,33 +1,43 @@
 import Link from 'next/link'
 import s from './styles.module.css'
+import HamburgerButton from '../hamburgerButton'
+
+export const items = [
+  {
+    text: 'Cáncer infantil',
+    href: '/',
+  },
+  {
+    text: 'Encuentros',
+    href: '/',
+  },
+  {
+    text: 'Colaborá',
+    href: '/',
+  },
+]
 
 const Header = () => {
   return (
     <header className={s.header}>
-      <div className={s.logo} />
+      <Link href='/' className={s.logoContainer}>
+        <div className={s.logo} />
+      </Link>
       <ul className={s.items}>
-        <li>
-          <Link className={s.link} href='/cancer'>
-            Cáncer Infantil
-          </Link>
-        </li>
-        <li>
-          <div className={s.separator} />
-        </li>
-        <li>
-          <Link className={s.link} href='/encuentros'>
-            Encuentros
-          </Link>
-        </li>
-        <li>
-          <div className={s.separator} />
-        </li>
-        <li>
-          <Link className={s.link} href='/colabora'>
-            Colaborá
-          </Link>
-        </li>
+        {items.map((item, i) => (
+          <>
+            <li key={item.href}>
+              <Link href={item.href} className={s.link}>
+                {item.text}
+              </Link>
+            </li>
+            {i !== items.length - 1 && <div className={s.separator} />}
+          </>
+        ))}
       </ul>
+      <div className={s.hamburgerMenu}>
+        <HamburgerButton />
+      </div>
     </header>
   )
 }

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from './styles.module.css'
 
 const items = [
@@ -24,9 +25,9 @@ const Footer = () => {
     <footer className={styles.container}>
       <section className={styles.anchor__container}>
         {items.map(({ text, href }) => (
-          <a key={text} href={href} className={styles.anchor}>
+          <Link key={text} href={href} className={styles.anchor}>
             {text}
-          </a>
+          </Link>
         ))}
       </section>
     </footer>
