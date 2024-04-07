@@ -11,7 +11,7 @@ const HamburgerButton = () => {
       <aside className={s.sidebar}>
         <nav className={s.nav}>
           {items.map((item) => (
-            <Link key={item.text} href={item.href} className={s.link}>
+            <Link key={`${item.text}-hamburger-button`} href={item.href} className={s.link}>
               {item.text}
             </Link>
           ))}

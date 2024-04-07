@@ -1,19 +1,20 @@
 import Link from 'next/link'
 import s from './styles.module.css'
 import HamburgerButton from '../hamburgerButton'
+import { Fragment } from 'react'
 
 export const items = [
   {
     text: 'Cáncer infantil',
-    href: '/',
+    href: '/cancer',
   },
   {
     text: 'Encuentros',
-    href: '/',
+    href: '/encuentros',
   },
   {
     text: 'Colaborá',
-    href: '/',
+    href: '/colabora',
   },
 ]
 
@@ -25,14 +26,14 @@ const Header = () => {
       </Link>
       <ul className={s.items}>
         {items.map((item, i) => (
-          <>
-            <li key={item.href}>
+          <Fragment key={`${item.href}-header`}>
+            <li>
               <Link href={item.href} className={s.link}>
                 {item.text}
               </Link>
             </li>
             {i !== items.length - 1 && <div className={s.separator} />}
-          </>
+          </Fragment>
         ))}
       </ul>
       <div className={s.hamburgerMenu}>

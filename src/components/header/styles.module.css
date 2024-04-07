@@ -6,6 +6,7 @@
     z-index: 10;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     /* align-items: center; */
     background-color: rgba(0, 0, 0, 0.7);
     height: 4rem;
@@ -16,6 +17,7 @@
     flex-direction: column;
     height: 100%;
     justify-content: center;
+    margin-left: 2rem;
 }
 
 .header .logo {
@@ -23,7 +25,6 @@
     background-size: cover;
     width: 3rem;
     height: 3rem;
-    margin-left: 1rem;
     /* cursor: pointer; */
     align-self: center;
 }
@@ -40,8 +41,6 @@
 
 .header .hamburgerMenu {
     overflow-x: hidden;
-    /* z-index: 100; */
-    width: 100%;
 }
 
 .header .items .link {
@@ -63,7 +62,6 @@
     .header .logo {
         width: 4rem;
         height: 4rem;
-        margin-left: 2rem;
     }
 }
 
@@ -74,7 +72,6 @@
     .header .logo {
         width: 5rem;
         height: 5rem;
-        margin-left: 2rem;
     }
 }
 
@@ -85,7 +82,6 @@
     .header .logo {
         width: 6rem;
         height: 6rem;
-        margin-left: 2rem;
     }
 }
 
@@ -96,7 +92,6 @@
     .header .logo {
         width: 8rem;
         height: 8rem;
-        margin-left: 2rem;
     }
 
     .header .items .link {

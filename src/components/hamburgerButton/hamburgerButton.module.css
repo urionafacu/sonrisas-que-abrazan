@@ -8,10 +8,6 @@
     --hamburger-margin: 8px;
     --animation-timing: 200ms ease-in-out;
     --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
-    position: absolute;
-    background-color: red;
-    right: 0;
-    /* overflow: hidden; */
 }
 
 .hamburgerMenu {
@@ -106,4 +102,10 @@
 .hamburgerMenu:has(input:checked) + .sidebar {
     display: block;
     transform: translateX(0); /* Desplaza el sidebar hacia la izquierda para que entre en la vista */
+}
+
+@media (max-width: 480px) {
+    .hamburgerMenu {
+        top: 4.5rem;
+    }
 }

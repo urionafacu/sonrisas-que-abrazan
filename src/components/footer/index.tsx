@@ -4,19 +4,19 @@ import styles from './styles.module.css'
 const items = [
   {
     text: 'Cáncer infantil',
-    href: '/',
+    href: '/cancer',
   },
   {
     text: 'Nuestros encuentros',
-    href: '/',
+    href: '/encuentros',
   },
   {
     text: 'Colaborá',
-    href: '/',
+    href: '/colabora',
   },
   {
     text: 'Contactános',
-    href: '/',
+    href: '/contacto',
   },
 ]
 
@@ -25,7 +25,7 @@ const Footer = () => {
     <footer className={styles.container}>
       <section className={styles.anchor__container}>
         {items.map(({ text, href }) => (
-          <Link key={text} href={href} className={styles.anchor}>
+          <Link key={`${text}-footer`} href={href} className={styles.anchor}>
             {text}
           </Link>
         ))}
