@@ -2,6 +2,7 @@ import Link from 'next/link'
 import s from './styles.module.css'
 import HamburgerButton from '../hamburgerButton'
 import { Fragment } from 'react'
+import Button from '../button'
 
 export const items = [
   {
@@ -35,6 +36,9 @@ const Header = () => {
             {i !== items.length - 1 && <div className={s.separator} />}
           </Fragment>
         ))}
+        <li>
+          <Button title='QUIERO DONAR' type='primary' />
+        </li>
       </ul>
       <div className={s.hamburgerMenu}>
         <HamburgerButton />

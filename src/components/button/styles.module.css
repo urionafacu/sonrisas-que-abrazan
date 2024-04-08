@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    border-radius: 5px;
+    padding: 12px 24px;
+}
+
+.primary {
+    background-color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 700;
+    color: #FFF;
+    border: none;
+    font-family: 'OpenSans';
+}

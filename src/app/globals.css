@@ -1,8 +1,6 @@
 @font-face {
   font-family: 'OpenSans';
   src: url('/fonts/OpenSans.ttf');
-  font-weight: normal;
-  font-style: normal;
 }
 
 *,
@@ -19,6 +17,7 @@ html, body {
   font-size: 100%; /* 16px */
   font-family: 'OpenSans', sans-serif;
   line-height: 1.6;
+  --primary-color: #83BE48DE;
 }
 
 @media (max-width: 1200px) {
