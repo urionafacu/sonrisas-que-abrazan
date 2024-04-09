@@ -116,11 +116,9 @@
     }
 }
 
-@media not all and (min-resolution:.001dpcm) {
-    @media (max-width: 432px) {
-        .hamburgerMenu {
-            top: 2.6rem;
-        }
+@media (max-width: 432px) {
+    .hamburgerMenuSafari {
+        top: 2.6rem;
     }
 }
 
@@ -129,14 +127,14 @@
         top: 2.6rem;
     }
 }
-/* For Safari Browser */
-@media not all and (min-resolution:.001dpcm) {
-    @media (max-width: 390px) {
-        .hamburgerMenu {
-            top: 2.6rem;
-        }
+
+@media (max-width: 390px) {
+    .hamburgerMenuSafari {
+        top: 2.6rem;
     }
 }
+
+
 
 @media (max-width: 360px) {
     .hamburgerMenu {

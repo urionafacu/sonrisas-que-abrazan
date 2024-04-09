@@ -31,6 +31,12 @@
     color: #FFF;
 }
 
+.article__bigParagraph {
+    font-size: 2rem;
+    color: #FFF;
+    font-weight: 700;
+}
+
 .article__container_image {
     display: flex;
     background: linear-gradient(to bottom, #83BE48DE 30%, #FFF 70%);

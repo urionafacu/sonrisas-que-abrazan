@@ -1,0 +1,34 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    gap: 5rem;
+    margin-bottom: 15rem;
+}
+
+.paragraph {
+    font-size: 1rem;
+}
+
+.paragraphBold {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.divider {
+    height: 5rem;
+    background-color: var(--primary-color);
+    width: 1px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .divider {
+        display: none;
+    }
+}
