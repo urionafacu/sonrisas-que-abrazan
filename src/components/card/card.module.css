@@ -1,0 +1,17 @@
+.container {
+    position: relative;
+}
+
+.image {
+    object-fit: contain;
+    width: 300px;
+    height: 300px;
+}
+
+.title {
+
+}
+
+.button {
+
+}

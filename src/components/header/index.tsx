@@ -40,9 +40,7 @@ const Header = () => {
           <Button title='QUIERO DONAR' type='primary' />
         </li>
       </ul>
-      <div className={s.hamburgerMenu}>
-        <HamburgerButton />
-      </div>
+      <HamburgerButton />
     </header>
   )
 }

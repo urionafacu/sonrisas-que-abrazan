@@ -1,5 +1,5 @@
 .header {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -7,8 +7,10 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.7);
     height: 4rem;
+    padding-right: 2rem;
 }
 
 .logoContainer {
@@ -39,6 +41,8 @@
 
 .header .hamburgerMenu {
     overflow-x: hidden;
+    align-items: center;
+    display: inherit;
 }
 
 .header .items .link {
@@ -110,12 +114,6 @@
     .header .separator {
         height: 2rem;
         width: .15rem;
-    }
-}
-
-@media (min-width: 433px) {
-    .header .hamburgerMenu {
-        display: none;
     }
 }
 
