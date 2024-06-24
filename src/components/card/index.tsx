@@ -76,8 +76,6 @@ const CardCarousel = () => {
     }
   }, [])
 
-  console.log(isMobile)
-
   return (
     <div className={s.carouselContainer}>
       <Swiper

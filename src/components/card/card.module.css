@@ -77,7 +77,7 @@
 
 @media (max-width: 640px) {
     .carouselContainer {
-      padding: 0 36px 32px 36px;
-      box-sizing: border-box;
+        padding: 0 36px 32px 36px;
+        box-sizing: border-box;
     }
-  }
+}
