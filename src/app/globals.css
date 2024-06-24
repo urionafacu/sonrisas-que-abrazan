@@ -21,29 +21,33 @@ html, body {
 }
 
 @media (max-width: 1200px) {
-  html { font-size: 58%; }
+  html { font-size: 58%; } /* 9.28px */
 }
 
 @media (max-width: 992px) {
-  html { font-size: 55%; }
+  html { font-size: 55%; } /* 8.8px */
 }
 
 @media (max-width: 768px) {
-  html { font-size: 50%; }
+  html { font-size: 50%; } /* 8px */
 }
 
 @media (max-width: 576px) {
-  html { font-size: 45%; }
+  html { font-size: 45%; } /* 7.2px */
 }
 
 @media (max-width: 480px) {
-  html { font-size: 42.5%; }
+  html { font-size: 42.5%; } /* 6.8px */
 }
 
 @media (max-width: 410px) {
-  html { font-size: 38%; }
+  html { font-size: 38%; } /* 6.08px */
 }
 
 @media (max-width: 360px) {
-  html { font-size: 35%; }
+  html { font-size: 35%; } /* 5.6px */
+}
+
+.swiper-pagination-bullet {
+  display: none !important;
 }
