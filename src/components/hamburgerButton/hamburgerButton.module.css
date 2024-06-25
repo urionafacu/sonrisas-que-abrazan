@@ -94,9 +94,10 @@
     background-color: var(--foreground);
     color: var(--background);
     max-width: 10rem;
-    min-height: 100vh;
+    min-height: 100svh;
     position: absolute;
     right: 0; /* Asegúrate de que el sidebar se alinea a la derecha */
+    top: 0;
     display: none;
 }
 
@@ -109,11 +110,19 @@
     .container {
         display: none;
     }
+
+    .hamburgerMenu:has(input:checked) {
+        position: sticky;
+    }
 }
 
 @media (max-width: 480px) {
     .hamburgerMenu {
         top: 3.3rem;
+    }
+
+    .hamburgerMenu:has(input:checked) {
+        position: sticky;
     }
 }
 
@@ -121,11 +130,19 @@
     .hamburgerMenu {
         top: 2.3rem;
     }
+
+    .hamburgerMenu:has(input:checked) {
+        position: sticky;
+    }
 }
 
 @media (max-width: 432px) {
     .hamburgerMenuSafari {
         top: 2.6rem;
+    }
+
+    .hamburgerMenu:has(input:checked) {
+        position: sticky;
     }
 }
 
@@ -133,11 +150,19 @@
     .hamburgerMenu {
         top: 2.6rem;
     }
+
+    .hamburgerMenu:has(input:checked) {
+        position: sticky;
+    }
 }
 
 @media (max-width: 390px) {
     .hamburgerMenuSafari {
         top: 2.6rem;
+    }
+
+    .hamburgerMenu:has(input:checked) {
+        position: sticky;
     }
 }
 
