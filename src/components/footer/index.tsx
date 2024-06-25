@@ -20,10 +20,6 @@ const ITEMS_LEFT = [
 
 const ITEMS_RIGHT = [
   {
-    text: 'Contactános',
-    href: '/contacto',
-  },
-  {
     text: '+54 9 3517 01-0544',
     href: 'https://wa.me/+5493517010544',
     isExternal: true,
