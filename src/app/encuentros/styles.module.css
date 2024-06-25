@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.containerTitle {
+    margin-top: 10rem;
+    background-color: var(--primary-color);
+    opacity: 87%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35rem;
+    width: 100%;
+}
+
+.title {
+    color: #FFF;
+    font-size: 8rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.titleSpan {
+    color: var(--primary-color);
+}

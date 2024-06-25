@@ -6,6 +6,8 @@
     height: 20rem;
     background-color: #000000;
     opacity: 75%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .items_left_container {

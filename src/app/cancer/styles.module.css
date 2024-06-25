@@ -1,0 +1,98 @@
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.containerTitle {
+    margin-top: 10rem;
+    background-color: var(--primary-color);
+    opacity: 87%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35rem;
+    width: 100%;
+}
+
+.title {
+    color: #FFF;
+    font-size: 8rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.titleSpan {
+    color: var(--primary-color);
+}
+
+.sectionTextContainer {
+    width: 100%;
+    height: auto;
+    padding-left: 35rem;
+    padding-right: 35rem;
+}
+
+@media (max-width: 1600px) {
+    .sectionTextContainer {
+        padding-left: 27rem;
+        padding-right: 27rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sectionTextContainer {
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .sectionTextContainer {
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .sectionTextContainer {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .sectionTextContainer {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+
+
+.textContainer {
+    background-color: #FBFBF9;
+    width: 100%;
+    padding: 7rem 8rem 6rem 8rem;
+}
+
+.textContainer p {
+    font-weight: 600;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.imageContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.image {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
