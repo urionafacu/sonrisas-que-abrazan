@@ -47,7 +47,7 @@ export default function Colabora() {
   )
 }
 
-export function HeartIcon() {
+function HeartIcon() {
   return (
     <div className={s.iconContainer}>
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' className={s.icon}>
@@ -60,7 +60,7 @@ export function HeartIcon() {
   )
 }
 
-export function LocationIcon() {
+function LocationIcon() {
   return (
     <div className={s.iconLocationContainer}>
       <svg xmlns='http://www.w3.org/2000/svg' className={s.iconLocation} viewBox='0 0 32 32'>

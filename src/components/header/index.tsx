@@ -1,8 +1,9 @@
 'use client'
+
 import Link from 'next/link'
 import s from './styles.module.css'
 import HamburgerButton from '../hamburgerButton'
-import { Fragment, useState } from 'react'
+import { Fragment } from 'react'
 import Button from '../button'
 
 export const items = [
@@ -21,7 +22,6 @@ export const items = [
 ]
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false)
   return (
     <header className={s.header}>
       <Link href='/' className={s.logoContainer}>
@@ -39,7 +39,16 @@ const Header = () => {
           </Fragment>
         ))}
         <li>
-          <Button title='QUIERO DONAR' type='primary' />
+          <Button
+            title='QUIERO DONAR'
+            type='primary'
+            onClick={() =>
+              window.open(
+                `https://wa.me/+5493517010544?text=${encodeURIComponent('Hola! Quiero donar')}`,
+                '_blank',
+              )
+            }
+          />
         </li>
       </ul>
       <HamburgerButton />
