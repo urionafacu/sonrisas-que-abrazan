@@ -49,7 +49,7 @@ const CARDS_DATA = [
   { title: 'ENCUENTROS', link: '/encuentros', image: '/images/cards/encuentros.png' },
   { title: 'COLABORAR', link: '/colaborar', image: '/images/cards/colaborar.png' },
   {
-    title: 'CANCER INFANTIL',
+    title: 'CÁNCER INFANTIL',
     link: '/cancer-infantil',
     image: '/images/cards/cancer-infantil.png',
   },
