@@ -88,7 +88,7 @@
 .sidebar {
     transition: transform var(--animation-timing); /* Asegúrate de que la transición se aplique a la transformación */
     transform: translateX(100%); /* Inicia el sidebar fuera de la vista, a la derecha */
-    padding: 0rem calc(100vw - 10rem) 0rem 1rem;
+    padding: 0rem calc(100vw - 20rem) 0rem 1rem;
     padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 4rem);
     /* padding-top: 4rem; */
     background-color: var(--foreground);
