@@ -1,6 +1,6 @@
 .carousel {
     width: 100dvw;
-    height: 100svh;
+    height: calc(100svh - 64px);
     /* overflow: hidden; */
     z-index: 2;
 }

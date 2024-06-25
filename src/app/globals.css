@@ -20,6 +20,10 @@ html, body {
   --primary-color: #83BE48DE;
 }
 
+@media (min-width: 1200px) {
+  html { font-size: 63%; }
+}
+
 @media (max-width: 1200px) {
   html { font-size: 58%; } /* 9.28px */
 }

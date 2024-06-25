@@ -1,7 +1,8 @@
+'use client'
 import Link from 'next/link'
 import s from './styles.module.css'
 import HamburgerButton from '../hamburgerButton'
-import { Fragment } from 'react'
+import { Fragment, useState } from 'react'
 import Button from '../button'
 
 export const items = [
@@ -20,6 +21,7 @@ export const items = [
 ]
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false)
   return (
     <header className={s.header}>
       <Link href='/' className={s.logoContainer}>

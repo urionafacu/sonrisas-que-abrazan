@@ -1,7 +1,7 @@
 .container {
     --x-width: calc(var(--hamburger-height) * 1.41421356237);
-    --bar-width: 35px;
-    --bar-height: 4px;
+    --bar-width: 30px;
+    --bar-height: 3px;
     --hamburger-gap: 6px;
     --foreground: rgba(0, 0, 0, 0.7);
     --background: white;
