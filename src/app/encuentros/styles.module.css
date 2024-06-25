@@ -24,3 +24,89 @@
 .titleSpan {
     color: var(--primary-color);
 }
+
+.locationTitleContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.locationTitle {
+    font-size: 3rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.iconLocationContainer {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.iconLocation {
+    color: var(--primary-color);
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.firstLocationTitle {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.firstLocationFirstImageContainer {
+    width: 100%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.firstLocationFirstImage {
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.firstLocationRestImagesContainer {
+    width: 100%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.firstLocationRestImage {
+    border-radius: 5px;
+    width: calc(50% - 4rem);
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.secondLocationRestImage {
+    border-radius: 5px;
+    width: calc(33% - 4rem);
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .firstLocationFirstImageContainer {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .firstLocationRestImagesContainer {
+        flex-direction: column;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+    .firstLocationRestImage {
+        width: 100%;
+    }
+    .secondLocationRestImage {
+        width: 100%;
+    }
+}

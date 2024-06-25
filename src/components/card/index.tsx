@@ -47,7 +47,7 @@ const Card = ({ title, link, image }: Props) => {
 
 const CARDS_DATA = [
   { title: 'ENCUENTROS', link: '/encuentros', image: '/images/cards/encuentros.png' },
-  { title: 'COLABORAR', link: '/colaborar', image: '/images/cards/colaborar.png' },
+  { title: 'COLABORAR', link: '/colabora', image: '/images/cards/colaborar.png' },
   {
     title: 'CÁNCER INFANTIL',
     link: '/cancer',
