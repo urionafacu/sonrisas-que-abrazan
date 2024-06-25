@@ -1,0 +1,175 @@
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.containerTitle {
+    margin-top: 10rem;
+    background-color: var(--primary-color);
+    opacity: 87%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35rem;
+    width: 100%;
+}
+
+.title {
+    color: #FFF;
+    font-size: 8rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.titleSpan {
+    color: var(--primary-color);
+}
+
+.imageContainer {
+    width: 100%;
+    padding-left: 55rem;
+    padding-right: 55rem;
+    margin-top: 10rem;
+}
+
+.image {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.list {
+    width: 100%;
+    padding-left: 55rem;
+    padding-right: 55rem;
+    gap: 3rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.list li {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.list li:last-child {
+    gap: 6px;
+}
+
+.list p {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.iconContainer {
+    width: 2rem;
+    height: 2rem;
+}
+
+.icon {
+    color: var(--primary-color);
+    width: 2rem;
+    height: 2rem;
+}
+
+.iconLocationContainer {
+    width: 3rem;
+    height: 3rem;
+}
+
+.iconLocation {
+    color: var(--primary-color);
+    width: 3rem;
+    height: 3rem;
+}
+
+.contactSectionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FBFBF9;
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.contactSectionContainer p {
+    font-size: 1.7rem;
+    font-weight: normal;
+}
+
+.contactSectionContainer span {
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.logoContainer {
+    width: 100%;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.logo {
+    width: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 1600px) {
+    .imageContainer {
+        padding-left: 40rem;
+        padding-right: 40rem;
+    }
+    .list {
+        padding-left: 40rem;
+        padding-right: 40rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .imageContainer {
+        padding-left: 35rem;
+        padding-right: 35rem;
+    }
+    .list {
+        padding-left: 35rem;
+        padding-right: 35rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .imageContainer {
+        padding-left: 25rem;
+        padding-right: 25rem;
+    }
+    .list {
+        padding-left: 25rem;
+        padding-right: 25rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .imageContainer {
+        padding-left: 12rem;
+        padding-right: 12rem;
+    }
+    .list {
+        padding-left: 12rem;
+        padding-right: 12rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .imageContainer {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .list {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
