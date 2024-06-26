@@ -6,9 +6,7 @@ export default function Colabora() {
   return (
     <main className={s.container}>
       <section className={s.containerTitle}>
-        <h1 className={s.title}>
-          SUMATE <span className={s.titleSpan}>VOS </span>TAMBIÉN
-        </h1>
+        <h1 className={s.title}>SUMATE VOS TAMBIÉN</h1>
       </section>
       <section className={s.imageContainer}>
         <img src='/images/colabora-section/image.jpeg' className={s.image} />

@@ -6,9 +6,7 @@ export default function CancerInfantil() {
   return (
     <main className={s.container}>
       <section className={s.containerTitle}>
-        <h1 className={s.title}>
-          ¿Qué es el <span className={s.titleSpan}>Cáncer Infantil</span>?
-        </h1>
+        <h1 className={s.title}>¿Qué es el Cáncer Infantil?</h1>
       </section>
       <section className={s.sectionTextContainer}>
         <aside className={s.textContainer}>
