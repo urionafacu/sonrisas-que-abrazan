@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react'
 import styles from './styles.module.css'
 
 const slides = [
-  { backgroundImage: '/images/carousel/background-image-1.jpg', title: 'Sonrisas que abrazan' },
+  { backgroundImage: '/images/carousel/background-image-1.png', title: 'Sonrisas que abrazan' },
   { backgroundImage: '/images/carousel/background-image-2.jpg', title: 'Somos' },
   { backgroundImage: '/images/carousel/background-image-3.jpg', title: 'Voluntarios de corazón' },
 ]
