@@ -19,14 +19,20 @@
     height: 100%;
     justify-content: center;
     margin-left: 2rem;
+    border-radius: 50%;
+    height: 48px;
+    outline: none;
+}
+
+.logoContainer:active {
+    background-color: (0, 0, 0, 0.1);
 }
 
 .header .logo {
-    background-image: url('/images/logo.avif');
-    background-size: cover;
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     align-self: center;
+    border-radius: 50%;
 }
 
 .header .items {
@@ -35,7 +41,6 @@
     flex-direction: row;
     gap: 2rem;
     align-items: center;
-    margin-right: 2rem;
     list-style-type: none;
 }
 

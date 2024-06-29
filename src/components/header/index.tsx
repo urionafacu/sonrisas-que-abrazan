@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client'
 
 import Link from 'next/link'
@@ -25,7 +26,7 @@ const Header = () => {
   return (
     <header className={s.header}>
       <Link href='/' className={s.logoContainer}>
-        <div className={s.logo} />
+        <img src='/images/logo.avif' alt='logo' className={s.logo} />
       </Link>
       <ul className={s.items}>
         {items.map((item, i) => (
