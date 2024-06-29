@@ -11,19 +11,19 @@ export default function Encuentros() {
         <LocationTitle title='Hospital de niños CÓRDOBA' className={s.firstLocationTitle} />
         <div className={s.firstLocationFirstImageContainer}>
           <img
-            src='/images/encuentros/hospital-ninos-1.jpeg'
+            src='/images/encuentros/hospital-ninos-1.avif'
             alt='foto hospital de niños'
             className={s.firstLocationFirstImage}
           />
         </div>
         <div className={s.firstLocationRestImagesContainer}>
           <img
-            src='/images/encuentros/hospital-ninos-2.jpeg'
+            src='/images/encuentros/hospital-ninos-2.avif'
             alt='foto hospital de niños'
             className={s.firstLocationRestImage}
           />
           <img
-            src='/images/encuentros/hospital-ninos-3.jpeg'
+            src='/images/encuentros/hospital-ninos-3.avif'
             alt='foto hospital de niños'
             className={s.firstLocationRestImage}
           />
@@ -40,17 +40,17 @@ export default function Encuentros() {
         </div>
         <div className={s.firstLocationRestImagesContainer}>
           <img
-            src='/images/encuentros/colecta-2.jpeg'
+            src='/images/encuentros/colecta-2.avif'
             alt='foto hospital de niños'
             className={s.secondLocationRestImage}
           />
           <img
-            src='/images/encuentros/colecta-3.jpeg'
+            src='/images/encuentros/colecta-3.avif'
             alt='foto hospital de niños'
             className={s.secondLocationRestImage}
           />
           <img
-            src='/images/encuentros/colecta-4.jpeg'
+            src='/images/encuentros/colecta-4.avif'
             alt='foto hospital de niños'
             className={s.secondLocationRestImage}
           />

@@ -92,7 +92,7 @@ const Footer = () => {
       </section>
       <div className={styles.footer}>
         <p>Fundación sonrisas que abrazan © {new Date().getFullYear()}</p>
-        <img src='/images/logo-white.png' className={styles.logo} />
+        <img src='/images/logo-white.avif' className={styles.logo} />
       </div>
     </footer>
   )

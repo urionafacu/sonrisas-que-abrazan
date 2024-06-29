@@ -22,10 +22,10 @@
 }
 
 .header .logo {
-    background-image: url('/images/logo.png');
+    background-image: url('/images/logo.avif');
     background-size: cover;
-    width: 48px;
-    height: 48px;
+    width: 64px;
+    height: 64px;
     align-self: center;
 }
 

@@ -34,7 +34,7 @@ export default function Colabora() {
       </ul>
       <section className={s.contactSectionContainer}>
         <div className={s.logoContainer}>
-          <img src='/images/logo-black.png' className={s.logo} />
+          <img src='/images/logo-black.avif' className={s.logo} />
         </div>
         <p>
           Para unirte al grupo <span>Sonrisas que abrazan</span> y ser parte de los encuentros

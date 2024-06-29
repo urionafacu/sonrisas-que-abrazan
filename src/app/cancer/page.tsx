@@ -35,7 +35,7 @@ export default function CancerInfantil() {
             vida de los más pequeños y sus seres queridos.
           </p>
           <div className={s.imageContainer}>
-            <img src='/images/cancer-infantil-section/image.png' className={s.image} />
+            <img src='/images/cancer-infantil-section/image.avif' className={s.image} />
           </div>
           <p>
             Nuestro objetivo es proporcionar apoyo tanto a las familias que están pasando por esta

@@ -31,7 +31,7 @@ const Article = () => {
       </article>
       <div className={s.article__container_image}>
         <img
-          src='/images/articles/article-image-1.jpeg'
+          src='/images/articles/article-image-1.avif'
           alt='SOBRE NOSOTROS'
           className={s.article__image}
         />

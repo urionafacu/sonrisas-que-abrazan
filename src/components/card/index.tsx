@@ -46,12 +46,12 @@ const Card = ({ title, link, image }: Props) => {
 }
 
 const CARDS_DATA = [
-  { title: 'ENCUENTROS', link: '/encuentros', image: '/images/cards/encuentros.png' },
-  { title: 'COLABORAR', link: '/colabora', image: '/images/cards/colaborar.png' },
+  { title: 'ENCUENTROS', link: '/encuentros', image: '/images/cards/encuentros.avif' },
+  { title: 'COLABORAR', link: '/colabora', image: '/images/cards/colaborar.avif' },
   {
     title: 'CÁNCER INFANTIL',
     link: '/cancer',
-    image: '/images/cards/cancer-infantil.png',
+    image: '/images/cards/cancer-infantil.avif',
   },
 ]
 
