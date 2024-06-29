@@ -64,3 +64,8 @@
     align-self: flex-end;
 }
 
+@media (max-width: 640px) {
+    .title {
+        font-size: 5rem;
+    }
+}

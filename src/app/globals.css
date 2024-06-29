@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'OpenSans';
   src: url('/fonts/OpenSans.ttf');
+  font-display: swap;
 }
 
 *,
