@@ -9,7 +9,9 @@ export const HeaderArticle = ({ title }: Props) => {
   return (
     <header className={s.container}>
       <div className={s.titleContainer}>
+        <div className={s.circle} />
         <h2 className={s.title}>{title}</h2>
+        <div className={s.circle} />
       </div>
     </header>
   )
