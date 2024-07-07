@@ -54,7 +54,7 @@
 }
 
 .list li:last-child {
-    gap: 6px;
+    gap: 8px;
 }
 
 .list p {
@@ -80,8 +80,12 @@
 
 .iconLocation {
     color: var(--primary-color);
-    width: 3rem;
-    height: 3rem;
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+.locationText {
+    font-weight: 400;
 }
 
 .contactSectionContainer {

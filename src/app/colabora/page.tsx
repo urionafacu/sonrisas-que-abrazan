@@ -29,7 +29,10 @@ export default function Colabora() {
         </li>
         <li>
           <LocationIcon />
-          <p>Podes alcanzarnos las donaciones a nuestra sede “”</p>
+          <p>
+            Podes alcanzarnos las donaciones a nuestra sede{' '}
+            <span className={s.locationText}>Avellaneda 634, La Calera, Córdoba</span>.
+          </p>
         </li>
       </ul>
       <section className={s.contactSectionContainer}>
@@ -39,7 +42,7 @@ export default function Colabora() {
         <p>
           Para unirte al grupo <span>Sonrisas que abrazan</span> y ser parte de los encuentros
         </p>
-        <p>Escribinos!</p>
+        <p>¡Escribinos!</p>
       </section>
     </main>
   )
